@@ -1,0 +1,81 @@
+body{
+    text-align: center;
+    font-family: "Happy Monkey", system-ui;
+    background: linear-gradient(#a2d2ff,#EFB0C9);
+    color:#ffffff;
+}
+/* contrast ratio between blue and white is too small */
+#bday{
+    width: 200px;
+    border-radius: 100px;
+    border: 5px solid #EFB0C9;
+}
+
+h1,h2, h3, h4, p{
+    text-shadow: 0 0 1px black;
+}
+#bday-age{
+    background-color: #EFB0C9;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    
+}
+#bday-date{
+    background-color: #EFB0C9;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: -10px;
+    
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gift-section{
+    margin-top: 50px;
+}
+.gift1,.gift2, .gift3,.gift4,.gift5{
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    height: 400px;
+    margin: 0 auto;
+    background-image: url("./images/gift1.jpeg");
+    background-size: cover;
+}
+#gift3, #gift4, #gift5{
+   height: 200px;
+}
+.gift1:hover{
+    background-image: url("./images/happy.webp");
+    background-size: cover;
+    border: 6px solid rgb(106, 0, 136);
+}
+.gift2:hover{
+    background-image: url("./images/best.webp");
+    background-size: cover;
+    border: 6px solid rgb(106, 0, 136);
+}
+.gift3:hover{
+    background-image: url("./images/amazing.webp");
+    background-size:90%;
+    border: 6px solid rgb(106, 0, 136);
+}
+.gift4:hover{
+    background-image: url("./images/bey.webp");
+    background-size: contain;
+    border: 6px solid rgb(106, 0, 136);
+}
+.gift5:hover{
+    background-image: url("./images/cheers.webp");
+    background-size: contain;
+    border: 6px solid rgb(106, 0, 136);
+}
+.gift-title{
+    margin-bottom: 10px;
+}
+.gift-hint{
+    margin-top: 0;
+}
